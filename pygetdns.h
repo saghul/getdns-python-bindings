@@ -39,6 +39,8 @@
 # define UNUSED_PARAM(x) ((void)(x))
 #endif
 
+#define STRINGIFY(x) #x
+
 extern PyObject *getdns_error;
 
 typedef struct pygetdns_libevent_callback_data  {
